@@ -1,0 +1,13 @@
+.stock-table {
+    
+    .stock-row {
+        display: flex;
+        width: 50%;
+    }
+
+    &__cell {
+        border: 2px solid black;
+        flex: 1;
+        height: 70px;
+    }
+}
